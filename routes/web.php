@@ -16,6 +16,7 @@ use App\Livewire\ProductsPage;
 use App\Livewire\SuccessPage;
 use Filament\Pages\Auth\Register;
 use Illuminate\Support\Facades\Route;
+use Livewire\Livewire;
 
 /*
 |--------------------------------------------------------------------------
@@ -33,7 +34,7 @@ Route::get('/categories', CategoriesPage::class);
 
 Route::get('/products', ProductsPage::class);
 Route::get('/cart', CartPage::class);
-Route::get('/products/{product}', ProductDetailPage::class);
+Route::get('/product/{slug}', ProductDetailPage::class);
 Route::get('/checkout', CheckoutPage::class);
 Route::get('my-orders', MyOrdersPage::class);
 Route::get('my-orders/{order}', MyOrderDetailPage::class);
@@ -46,3 +47,13 @@ Route::get('/reset', ResetPasswordPage::class);
 
 Route::get('success', SuccessPage::class);
 Route::get('cancel', CancelPage::class);
+
+
+
+
+
+
+
+
+
+
