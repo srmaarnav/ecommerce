@@ -13,14 +13,14 @@
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
                                         dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
                                     <div class="add-bag d-flex align-items-center">
-                                        <a class="add-btn" href="/"><span class="lnr lnr-cross"></span></a>
+                                        <a class="add-btn" href="/products" wire:navigate><span class="lnr lnr-cross"></span></a>
                                         <span class="add-text text-uppercase">Explore Products</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-7">
                                 <div class="banner-img">
-                                    <img class="img-fluid" src="{{asset('home-page-assets/img/banner/banner-img.png')}}" alt="">
+                                    <img class="img-fluid" src="{{asset('home-page-assets/img/banner/banner-bg.webp')}}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -31,16 +31,16 @@
                                     <h1>Nike New <br>Collection!</h1>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
                                         dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-                                    <div class="add-bag d-flex align-items-center">
-                                        <a class="add-btn" href=""><span class="lnr lnr-cross"></span></a>
-                                        <span class="add-text text-uppercase">Add to Bag</span>
+                                    <div class="add-bag sky-400 d-flex align-items-center">
+                                        <a class="add-btn " href="/products" wire:navigate><span class="lnr lnr-cross"></span></a>
+                                        <span class="add-text text-uppercase">Explore our Products</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-7">
-                                <div class="{{asset('home-page-assets/img/banner/next.png')}}">
-                                    <img class="img-fluid" src="{{asset('home-page-assets/img/banner/banner-img.png')}}" alt="">
-                                </div>
+                                <!-- <div class="{{asset('home-page-assets/img/banner/next.png')}}"> -->
+                                    <img class="img-fluid" src="{{asset('home-page-assets/img/banner/banner-bg.webp')}}" alt="">
+                                <!-- </div> -->
                             </div>
                         </div>
                     </div>

@@ -5,7 +5,7 @@ module.exports = {
   "./resources/**/*.vue",
   'node_modules/preline/dist/*.js',
 ],
-  darkMode:'class',
+  darkMode:'falsea',
   theme: {
     extend: {},
   },
