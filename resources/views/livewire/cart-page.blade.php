@@ -77,7 +77,7 @@
                             <span class="font-semibold">{{Number::currency($grandTotal, 'NPR')}}</span>
                         </div>
                         @if($cartItems)
-                        <a href="/checkout" class="bg-blue-500 block text-center text-white py-2 px-4 rounded-lg mt-4 w-full">Checkout</a>
+                        <a href="/checkout" class="bg-blue-500 block text-center text-white py-2 px-4 rounded-lg mt-4 w-full" wire:navigate>Checkout</a>
                         @endif
                     </div>
                 </div>

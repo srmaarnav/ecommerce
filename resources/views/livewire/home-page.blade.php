@@ -52,7 +52,7 @@
 
 
     <!-- Start category Area -->
-    <div class="bg-amber-100 py-20">
+    <div class="bg-indigo-100 py-20">
         <div class="max-w-xl mx-auto">
             <div class="text-center ">
                 <div class="relative flex flex-col items-center">
