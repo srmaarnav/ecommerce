@@ -2,6 +2,8 @@
 
 namespace App\Providers;
 
+use Filament\Facades\Filament;
+use Illuminate\Support\Facades\Config;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -20,5 +22,8 @@ class AppServiceProvider extends ServiceProvider
     public function boot(): void
     {
         //
+        if (Filament::getCurrentPanel()) {
+            Config::set('livewire.inject_assets', true);
+        }
     }
 }
