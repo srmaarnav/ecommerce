@@ -1,5 +1,5 @@
 	<!-- start footer Area -->
-	<footer class="footer-area section_gap">
+	<footer class="footer-area section_gap bg-cyan-950">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-3  col-md-6 col-sm-6">
@@ -17,7 +17,7 @@
 						<p>Stay update with our latest</p>
 						<div class="" id="mc_embed_signup">
 
-							<form target="_blank" novalidate="true" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
+							<form target="_blank" novalidate="true" action=""
 							 method="get" class="form-inline">
 
 								<div class="d-flex flex-row">
@@ -70,7 +70,7 @@
 			</div>
 			<div class="footer-bottom d-flex justify-content-center align-items-center flex-wrap">
 				<p class="footer-text m-0"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy; All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+Copyright &copy; All rights reserved | <a href="/" wire:navigate target="_blank">Tech Tonic</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 </p>
 			</div>
