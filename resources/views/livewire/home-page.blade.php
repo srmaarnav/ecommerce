@@ -20,7 +20,7 @@
                             </div>
                             <div class="col-lg-7">
                                 <div class="banner-img">
-                                    <img class="img-fluid" src="{{asset('home-page-assets/img/banner/banner-bg.webp')}}" alt="">
+                                    <img class="img-fluid" alt="Tech Tonic" src="{{asset('home-page-assets/img/banner/banner-bg.webp')}}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -39,7 +39,7 @@
                             </div>
                             <div class="col-lg-7">
                                 <!-- <div class="{{asset('home-page-assets/img/banner/next.png')}}"> -->
-                                    <img class="img-fluid" src="{{asset('home-page-assets/img/banner/banner-bg.webp')}}" alt="">
+                                    <img class="img-fluid" alt="Tech Tonic" src="{{asset('home-page-assets/img/banner/banner-bg.webp')}}" alt="">
                                 <!-- </div> -->
                             </div>
                         </div>
@@ -103,7 +103,7 @@
     <!-- End category Area -->
 
     <!--Start Brand Area -->
-    <section class="py-5 bg-amber-50">
+    <section class="py-5 bg-indigo-50">
         <div class="max-w-xl mx-auto">
             <div class="text-center ">
                 <div class="relative flex flex-col items-center">
@@ -140,50 +140,50 @@
     <!--End Brand Area -->
 
     <!-- start features Area -->
-    <section class="features-area section_gap bg-stone-300">
+    <section class="features-area section_gap bg-indigo-100">
         <div class="container">
-            <div class="row features-inner">
-                <!-- single features -->
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="single-features">
-                        <div class="f-icon">
-                            <img src="{{asset('home-page-assets/img/features/f-icon1.png')}}" alt="">
-                        </div>
-                        <h6>Free Delivery</h6>
-                        <p>Free Shipping on all order</p>
-                    </div>
-                </div>
-                <!-- single features -->
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="single-features">
-                        <div class="f-icon">
-                            <img src="{{asset('home-page-assets/img/features/f-icon2.png')}}" alt="">
-                        </div>
-                        <h6>Return Policy</h6>
-                        <p>Free Shipping on all order</p>
-                    </div>
-                </div>
-                <!-- single features -->
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="single-features">
-                        <div class="f-icon">
-                            <img src="{{asset('home-page-assets/img/features/f-icon3.png')}}" alt="">
-                        </div>
-                        <h6>24/7 Support</h6>
-                        <p>Free Shipping on all order</p>
-                    </div>
-                </div>
-                <!-- single features -->
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="single-features">
-                        <div class="f-icon">
-                            <img src="{{asset('home-page-assets/img/features/f-icon4.png')}}" alt="">
-                        </div>
-                        <h6>Secure Payment</h6>
-                        <p>Free Shipping on all order</p>
-                    </div>
-                </div>
-            </div>
+        <div class="row features-inner">
+				<!-- single features -->
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="single-features">
+						<div class="f-icon px-10">
+							<img class="px-20" src="{{asset('home-page-assets/img/features/f-icon1.png')}}" alt="">
+						</div>
+						<h6>Free Delivery</h6>
+						<p>Free Shipping on all order</p>
+					</div>
+				</div>
+				<!-- single features -->
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="single-features">
+						<div class="f-icon px-10">
+							<img class="px-20" src="{{asset('home-page-assets/img/features/f-icon2.png')}}" alt="">
+						</div>
+						<h6>Return Policy</h6>
+						<p>Free Shipping on all order</p>
+					</div>
+				</div>
+				<!-- single features -->
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="single-features">
+						<div class="f-icon px-10">
+							<img class="px-20" src="{{asset('home-page-assets/img/features/f-icon3.png')}}" alt="">
+						</div>
+						<h6>24/7 Support</h6>
+						<p>Free Shipping on all order</p>
+					</div>
+				</div>
+				<!-- single features -->
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="single-features">
+						<div class="f-icon px-10">
+							<img class="px-20" src="{{asset('home-page-assets/img/features/f-icon4.png')}}" alt="">
+						</div>
+						<h6>Secure Payment</h6>
+						<p>Free Shipping on all order</p>
+					</div>
+				</div>
+			</div>
         </div>
     </section>
     <!-- end features Area -->
