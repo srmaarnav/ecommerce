@@ -79,9 +79,9 @@
                         <div class="px-3 mb-4">
                             <div class="items-center justify-between hidden px-3 py-2 bg-gray-100 md:flex dark:bg-gray-900 ">
                                 <div class="flex items-center justify-between">
-                                    <select wire:model.live="sorting" id="sorting" name="sorting"  class="block w-40 text-base bg-gray-100 cursor-pointer dark:text-gray-400 dark:bg-gray-900 pt-2">
+                                    <select wire:model.live="sorting" id="sorting" name="sorting" class="block w-40 text-base bg-gray-100 cursor-pointer dark:text-gray-400 dark:bg-gray-900 pt-2">
                                         <option value="latest">Sort by latest</option>
-                                        <option value="price" >Sort by Price</option>
+                                        <option value="price">Sort by Price</option>
                                     </select>
                                 </div>
                             </div>
@@ -92,6 +92,13 @@
                             <div class="w-full px-3 mb-6 sm:w-1/2 md:w-1/3" wire:key="{{$product->id}}">
                                 <div class="border border-gray-300 dark:border-gray-700">
                                     <div class="relative bg-gray-200">
+                                        <!-- Favorite Button -->
+                                        <!-- <button wire:click.prevent="toggleFavorite({{$product->id}})" class="absolute top-2 right-2 bg-transparent rounded-full p-3 text-gray-500 hover:text-red-500 dark:bg-gray-800 dark:text-gray-400 dark:hover:text-red-300">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="w-6 h-6 bi bi-heart" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514 3.11 4.075 6.235l.905 1.03.905-1.03C9.486 3.11 12.4.28 9.716 2.011L8 2.748zm4.952-1.319c-1.528-1.533-4.02-1.428-5.66.217L8 2.287l-.293-.313C6.02.001 3.535-.096 2.004 1.43c-1.56 1.548-1.458 4.032.284 5.676l5.236 5.454c.281.293.676.293.957 0l5.236-5.454c1.742-1.645 1.844-4.128.284-5.676z" />
+                                            </svg>
+                                        </button> -->
+
                                         <a href="/product/{{$product->slug}}" wire:navigate class="h-screen">
                                             <img src="{{url('storage', $product->images[0])}}" alt="{{$product->name}}" class="max-h-full m-auto object-cover w-full h-56 mx-auto ">
                                         </a>
@@ -99,7 +106,7 @@
                                     <div class="p-3 ">
                                         <div class="flex items-center justify-between gap-2 mb-2">
                                             <h3 class="text-xl font-medium dark:text-gray-400">
-                                            {{$product->name}}
+                                                {{$product->name}}
                                             </h3>
                                         </div>
                                         <p class="text-lg ">
