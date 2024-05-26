@@ -16,6 +16,7 @@ use App\Livewire\ProductDetailPage;
 use App\Livewire\ProductsPage;
 use App\Livewire\SuccessPage;
 use Filament\Pages\Auth\Register;
+use Illuminate\Support\Facades\Password;
 use Illuminate\Support\Facades\Route;
 use Livewire\Livewire;
 
@@ -57,3 +58,10 @@ Route::middleware('auth')->group(function () {
     Route::get('/my-orders', MyOrdersPage::class);
     Route::get('/my-orders/{order_id}', MyOrderDetailPage::class)->name('my-orders.show');
 });
+
+// Route::get('test',function(){
+//     $status = Password::sendResetLink(['email' => 'premsingh57@gmail.com']);
+//     return $status;
+
+//     return view('test');
+// });

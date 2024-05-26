@@ -30,7 +30,7 @@ Simple Laravel E-Commerce application built using Laravel-10 framework. Utilized
 
 * To access the admin panel, you need to run a database seeder, `php artisan db:seed`, a new user will be created with the following credential:
     * Name: `Admin`
-    * Email: `admin@example.com`
+    * Email: `admin@techtonic.com`
     * Password: `admin`
 
 * You can the login to admin panel from the url `localhost/admin/login`.
