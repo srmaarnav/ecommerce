@@ -33,7 +33,7 @@ Simple Laravel E-Commerce application built using Laravel-10 framework. Utilized
     * Email: `admin@example.com`
     * Password: `admin`
 
-* You can the login to admin panel from the url `localhost/admin/login`.
+* You can login to admin panel from the url `localhost/admin/login`.
 * Add the categories, brands, and products in the admin panel.
 * Then, go to `localhost` to observe the 'TechTonic' e-commerce platform.
 
