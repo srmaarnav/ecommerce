@@ -8,7 +8,7 @@
 
     <title>{{ $title ?? 'Tech Tonic' }}</title>
     <!-- Favicon-->
-    <link rel="shortcut icon" href="{{asset('home-page-assets/img/fav.png')}}">
+    <link rel="shortcut icon" href="{{asset('home-page-assets/img/fav.webp')}}">
     <!-- Author Meta -->
     <meta name="author" content="Trch Tonic">
     <!-- Meta Description -->

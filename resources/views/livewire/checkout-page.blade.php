@@ -51,7 +51,7 @@
                                 <label class="block text-gray-700 dark:text-white mb-1" for="phone">
                                     Phone
                                 </label>
-                                <input wire:model="phone" class="w-full rounded-lg border py-2 px-3 dark:bg-gray-700 dark:text-white dark:border-none" id="phone" type="text">
+                                <input wire:model="phone" maxlength="10" minlength="10" class="w-full rounded-lg border py-2 px-3 dark:bg-gray-700 dark:text-white dark:border-none" id="phone" type="text">
                                 </input>
                                 @error('phone')
                                 <div class="text-red-500 text-sm">

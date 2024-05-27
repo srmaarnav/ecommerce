@@ -68,7 +68,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="footer-bottom d-flex justify-content-center align-items-center flex-wrap">
+			<div class="footer-bottom h-3 d-flex justify-content-center align-items-center flex-wrap">
 				<p class="footer-text m-0"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 Copyright &copy; All rights reserved | <a href="/" wire:navigate target="_blank">Tech Tonic</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->

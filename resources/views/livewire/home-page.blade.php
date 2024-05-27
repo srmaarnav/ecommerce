@@ -20,7 +20,7 @@
                             </div>
                             <div class="col-lg-7">
                                 <div class="banner-img">
-                                    <img class="img-fluid" alt="Tech Tonic" src="{{asset('home-page-assets/img/banner/banner-bg.webp')}}" alt="">
+                                    <img class="img-fluid" alt="Tech Tonic" src="{{asset('home-page-assets/img/banner/banner-bg.svg')}}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -32,14 +32,14 @@
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
                                         dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
                                     <div class="add-bag sky-400 d-flex align-items-center">
-                                        <a class="add-btn " href="/products" wire:navigate><span class="lnr lnr-cross"></span></a>
-                                        <span class="add-text text-uppercase">Explore our Products</span>
+                                        <a class="add-btn " href="/categories" wire:navigate><span class="lnr lnr-cross"></span></a>
+                                        <span class="add-text text-uppercase">Explore our Categories</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-7">
                                 <!-- <div class="{{asset('home-page-assets/img/banner/next.png')}}"> -->
-                                    <img class="img-fluid" alt="Tech Tonic" src="{{asset('home-page-assets/img/banner/banner-bg.webp')}}" alt="">
+                                    <img class="img-fluid" alt="Tech Tonic" src="{{asset('home-page-assets/img/banner/banner-bg.svg')}}" alt="">
                                 <!-- </div> -->
                             </div>
                         </div>
@@ -71,12 +71,12 @@
         </div>
 
         <div class="max-w-[85rem] px-4 sm:px-6 lg:px-8 mx-auto">
-            <div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-6">
+            <div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-6 ">
 
                 @foreach($categories as $category)
 
-                <a class="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition dark:bg-slate-900 dark:border-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="/products?selected_categories[0]={{$category->id}}" wire:key="{{$category->id}}" wire:navigate>
-                    <div class="p-4 md:p-5">
+                <a class="group  flex flex-col hover:shadow-md hover:-translate-y-1 transition-colors  transition-transform transform duration-300 bg-white border shadow-sm rounded-xl hover:shadow-md transition dark:bg-slate-900 dark:border-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="/products?selected_categories[0]={{$category->id}}" wire:key="{{$category->id}}" wire:navigate>
+                    <div class="  hover:bg-sky-100 hover:rounded-xl p-4 md:p-5 transition-all duration-300">
                         <div class="flex justify-between items-center">
                             <div class="flex items-center">
                                 <img class="h-[2.375rem] w-[2.375rem] rounded-full" src="{{url('storage', $category->image)}}" alt="{{$category->name}}">
@@ -147,7 +147,7 @@
 				<div class="col-lg-3 col-md-6 col-sm-6">
 					<div class="single-features">
 						<div class="f-icon px-10">
-							<img class="px-20" src="{{asset('home-page-assets/img/features/f-icon1.png')}}" alt="">
+							<img class="px-20" src="{{asset('home-page-assets/img/features/f-icon1.png')}}" alt="Free Delivery">
 						</div>
 						<h6>Free Delivery</h6>
 						<p>Free Shipping on all order</p>
@@ -157,7 +157,7 @@
 				<div class="col-lg-3 col-md-6 col-sm-6">
 					<div class="single-features">
 						<div class="f-icon px-10">
-							<img class="px-20" src="{{asset('home-page-assets/img/features/f-icon2.png')}}" alt="">
+							<img class="px-20" src="{{asset('home-page-assets/img/features/f-icon2.png')}}" alt="Return Policy">
 						</div>
 						<h6>Return Policy</h6>
 						<p>Free Shipping on all order</p>
@@ -167,7 +167,7 @@
 				<div class="col-lg-3 col-md-6 col-sm-6">
 					<div class="single-features">
 						<div class="f-icon px-10">
-							<img class="px-20" src="{{asset('home-page-assets/img/features/f-icon3.png')}}" alt="">
+							<img class="px-20" src="{{asset('home-page-assets/img/features/f-icon3.png')}}" alt="24 Hour Support">
 						</div>
 						<h6>24/7 Support</h6>
 						<p>Free Shipping on all order</p>
@@ -177,7 +177,7 @@
 				<div class="col-lg-3 col-md-6 col-sm-6">
 					<div class="single-features">
 						<div class="f-icon px-10">
-							<img class="px-20" src="{{asset('home-page-assets/img/features/f-icon4.png')}}" alt="">
+							<img class="px-20" src="{{asset('home-page-assets/img/features/f-icon4.png')}}" alt="Secure Patment">
 						</div>
 						<h6>Secure Payment</h6>
 						<p>Free Shipping on all order</p>
