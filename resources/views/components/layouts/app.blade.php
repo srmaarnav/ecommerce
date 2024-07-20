@@ -35,7 +35,7 @@
     @livewireStyles
     <style>
         .banner-area {
-            background-image: url({{ asset('home-page-assets/img/banner/common-banner1.webp')}});
+            background-image: url({{ asset('home-page-assets/img/banner/banner-bg1.svg')}});
         background-position: center;
         background-repeat: no-repeat;
 
