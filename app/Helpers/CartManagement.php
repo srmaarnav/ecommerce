@@ -123,8 +123,10 @@ class CartManagement
 
         foreach($cartItems as $key=>$item){
             if($item['product_id'] == $product_id){
-                $cartItems[$key]['quantity']++;
-                $cartItems[$key]['total_amount'] = $cartItems[$key]['quantity'] * $cartItems[$key]['unit_amount'];
+                if($cartItems[$key]['quantity'] < 10){
+                    $cartItems[$key]['quantity']++;
+                    $cartItems[$key]['total_amount'] = $cartItems[$key]['quantity'] * $cartItems[$key]['unit_amount'];
+                }
             }
         }
 

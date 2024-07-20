@@ -25,7 +25,9 @@ class ProductDetailPage extends Component
 
     public function increaseQuantity()
     {
-        $this->quantity++;
+        if ($this->quantity < 10) {
+            $this->quantity++;
+        }
     }
 
     public function decreaseQuantity()
