@@ -83,7 +83,11 @@
                                     @enderror
                                 </div>
                                 <!-- End Form Group -->
-
+                                @if(config('services.recaptcha.key'))
+                                    <div class="g-recaptcha" 
+                                    data-sitekey="{{config('services.recaptcha.key')}}">
+                                    </div>
+                                @endif
 
                                 <button type="submit" class=" w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">Sign up</button>
                             </div>
@@ -95,3 +99,5 @@
     </div>
     </section>
 </div>
+
+<script src="https://www.google.com/recaptcha/api.js"></script>

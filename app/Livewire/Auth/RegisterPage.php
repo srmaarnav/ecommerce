@@ -21,7 +21,8 @@ class RegisterPage extends Component
         $this->validate([
             'name' => 'required|max:255',
             'email' => 'required|email|unique:users|max:255',
-            'password' => 'required|min:3|max:255'
+            'password' => 'required|min:3|max:255',
+            
         ]);
 
         //save user to database
