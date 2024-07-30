@@ -101,7 +101,7 @@ class CheckoutPage extends Component
         $address->save();
         $order->items()->createMany($cartItems);
         CartManagement::clearCartItems();
-        // Mail::to(request()->user())->send(new OrderPlaced($order));
+        Mail::to(request()->user())->send(new OrderPlaced($order));
         return redirect($redirect_url);
     }
 

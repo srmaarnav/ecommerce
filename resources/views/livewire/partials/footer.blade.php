@@ -5,9 +5,10 @@
 				<div class="col-lg-3  col-md-6 col-sm-6">
 					<div class="single-footer-widget">
 						<h6>About Us</h6>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore
-							magna aliqua.
+						<p class="text-justify">
+						At TechTonic, we pride ourselves on being the premier destination for the latest and most innovative electronic products. As a verified and certified dealer in the area, we guarantee that all our products are 100% genuine and sourced directly from trusted manufacturers and authorized distributors.
+
+
 						</p>
 					</div>
 				</div>
@@ -17,13 +18,11 @@
 						<p>Stay update with our latest</p>
 						<div class="" id="mc_embed_signup">
 
-							<form target="_blank" novalidate="true" action=""
-							 method="get" class="form-inline">
+							<form target="_blank" novalidate="true" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="form-inline">
 
 								<div class="d-flex flex-row">
 
-									<input class="form-control" name="EMAIL" placeholder="Enter Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email '"
-									 required="" type="email">
+									<input class="form-control" name="EMAIL" placeholder="Enter Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email '" required="" type="email">
 
 
 									<button class="click-btn btn btn-default"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
@@ -41,18 +40,13 @@
 					</div>
 				</div>
 				<div class="col-lg-3  col-md-6 col-sm-6">
-					<div class="single-footer-widget mail-chimp">
-						<h6 class="mb-20">Instragram Feed</h6>
-						<ul class="instafeed d-flex flex-wrap">
-							<li><img src="{{asset('home-page-assets/img/i1.jpg')}}" alt=""></li>
-							<li><img src="{{asset('home-page-assets/img/i2.jpg')}}" alt=""></li>
-							<li><img src="{{asset('home-page-assets/img/i3.jpg')}}" alt=""></li>
-							<li><img src="{{asset('home-page-assets/img/i4.jpg')}}" alt=""></li>
-							<li><img src="{{asset('home-page-assets/img/i5.jpg')}}" alt=""></li>
-							<li><img src="{{asset('home-page-assets/img/i6.jpg')}}" alt=""></li>
-							<li><img src="{{asset('home-page-assets/img/i7.jpg')}}" alt=""></li>
-							<li><img src="{{asset('home-page-assets/img/i8.jpg')}}" alt=""></li>
-						</ul>
+					<div class="single-footer-widget">
+						<h6>Popular Sections</h6>
+						<p><a href="/">Home Page</a></p>
+						<p><a href="/products">Products</a></p>
+						<p><a href="/categories">Categories</a></p>
+						<p><a href="/about-us">About Us</a></p>
+						<p><a href="/admin/login">Admin Login</a></p>
 					</div>
 				</div>
 				<div class="col-lg-2 col-md-6 col-sm-6">
@@ -60,19 +54,18 @@
 						<h6>Follow Us</h6>
 						<p>Let us be social</p>
 						<div class="footer-social d-flex align-items-center">
-							<a href="#"><i class="fa fa-facebook"></i></a>
-							<a href="#"><i class="fa fa-twitter"></i></a>
-							<a href="#"><i class="fa fa-dribbble"></i></a>
-							<a href="#"><i class="fa fa-behance"></i></a>
+							<a href="https://www.facebook.com/profile.php?id=61563356663933"><i class="fa fa-facebook"></i></a>
+							<a href="https://instagram.com/techtonic.np"><i class="fa fa-instagram"></i></a>
+							<a href="http://www.techtonic.np"><i class="fa fa-globe"></i></a>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="footer-bottom h-3 d-flex justify-content-center align-items-center flex-wrap">
-				<p class="footer-text m-0"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy; All rights reserved | <a href="/" wire:navigate target="_blank">Tech Tonic</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-</p>
+				<p class="footer-text m-0 ">
+					Copyright 2024 &copy; All rights reserved | <a href="/" style="color: #0f53ff;" wire:navigate target="_blank">Tech Tonic</a>
+
+				</p>
 			</div>
 		</div>
 	</footer>

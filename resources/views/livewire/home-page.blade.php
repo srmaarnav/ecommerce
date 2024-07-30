@@ -10,8 +10,7 @@
                             <div class="col-lg-5 col-md-6">
                                 <div class="banner-content">
                                     <h1 >Mobile & Accessories<br>Collection!</h1>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                                    <p></p>
                                     <div class="add-bag d-flex align-items-center">
                                         <a class="add-btn" href="/products" wire:navigate><span class="lnr lnr-cross"></span></a>
                                         <span class="add-text text-uppercase">Explore Products</span>
